@@ -1,0 +1,10 @@
+# animated-icon.gif 플레이스홀더
+
+이 파일을 실제 animated-icon.gif 파일로 교체하세요.
+페이지 로딩 시 표시될 애니메이션 GIF입니다.
+
+권장 사항:
+- 크기: 100x100px 정도
+- 투명 배경 권장
+- 파일명: animated-icon.gif
+- 위치: public/animated-icon.gif
