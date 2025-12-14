@@ -1,7 +1,7 @@
 <template>
   <div class="loading-overlay">
     <div class="loading-content">
-      <img src="/animated-icon.gif" alt="Loading" class="loading-gif" />
+      <div class="loading-spinner"></div>
       <p>로딩 중...</p>
     </div>
   </div>
@@ -29,9 +29,19 @@
   text-align: center;
 }
 
-.loading-gif {
-  width: 100px;
-  height: 100px;
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
 
 .loading-content p {
