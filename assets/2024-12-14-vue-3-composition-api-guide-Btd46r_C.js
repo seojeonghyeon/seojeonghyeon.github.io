@@ -1,4 +1,4 @@
----
+const n=`---
 title: "Vue 3 Composition API 완벽 가이드"
 date: 2024-12-14
 tags: ["Vue.js", "Composition API", "JavaScript"]
@@ -17,7 +17,7 @@ Vue 3의 Composition API는 Vue 2의 Options API보다 더 유연하고 강력�
 
 ## 기본 사용법
 
-```javascript
+\`\`\`javascript
 import { ref, computed, onMounted } from 'vue'
 
 export default {
@@ -40,6 +40,6 @@ export default {
     }
   }
 }
-```
+\`\`\`
 
-이 가이드를 통해 Vue 3 Composition API의 모든 기능을 마스터할 수 있습니다.
+이 가이드를 통해 Vue 3 Composition API의 모든 기능을 마스터할 수 있습니다.`;export{n as default};
